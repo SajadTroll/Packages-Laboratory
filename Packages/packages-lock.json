@@ -50,12 +50,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "file:C:/Users/SajadTroll/Downloads/be6c4fd0abf5b9b45f956b97294032a67f3c2f4d.tgz",
+      "version": "1.14.2",
       "depth": 0,
-      "source": "local-tarball",
+      "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
-      }
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
       "version": "1.2.6",
