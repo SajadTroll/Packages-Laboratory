@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,13 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rb;
+    [SerializeField] PlayerInput _playerInput;
+
+    private void Start()
+    {
+        
+    }
+
     public void Jump(InputAction.CallbackContext context)
     {
         if (context.performed)
