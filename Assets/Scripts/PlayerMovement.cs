@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        
+        _rb = 
     }
 
     public void Jump(InputAction.CallbackContext context)
