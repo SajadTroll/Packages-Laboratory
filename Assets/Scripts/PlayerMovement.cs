@@ -6,12 +6,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private Rigidbody _rb;
-    [SerializeField] PlayerInput _playerInput;
+    Rigidbody _rb;
+    PlayerInput _playerInput;
 
     private void Start()
     {
-        _rb = 
+        _rb = GetComponent<Rigidbody>();
+        _playerInput = GetComponent<PlayerInput>();
     }
 
     public void Jump(InputAction.CallbackContext context)
